@@ -45,7 +45,7 @@ Use **triggers** (and, where relevant, Cursor rules) so the right agent and work
 | `Bug: [desc]` | Debugging and fix flow |
 | `Doc: tech` / `Doc: functional` | Technical or functional docs |
 
-See `agent-system/QUICK_REFERENCE.md` for the full trigger list.
+See `agent-system/QUICK_REFERENCE.md` for the full trigger list. **[Detailed usage guide →](USAGE.md)**
 
 ---
 
