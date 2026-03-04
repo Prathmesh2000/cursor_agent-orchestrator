@@ -1,16 +1,18 @@
-# CTO Agent Orchestrator
+# Cursor Agent Workflow — Skill-Based Quality
 
-**A multi-agent system that runs like a CTO-led engineering org:** 48+ specialized agents, 77+ skills, and a full feature lifecycle from PRD to merged PR—with quality gates, brownfield support, and commit-after-every-atomic-unit discipline.
+**A skill and agent workflow for Cursor:** 48+ agent roles, 77+ skills, and a full workflow from idea to implementation—so you get better, consistent, high-quality results when you work with Cursor.
+
+This is **not software**. It’s a set of **skills, agent definitions, and workflow rules** you use inside Cursor (rules, prompts, triggers) to steer AI toward structured, quality-gated output.
 
 ---
 
 ## What it does
 
-- **Orchestrates a full feature workflow:** Requirements (PM + Brainstormer) → UX design (UI/UX Designer, 3-round interview) → Technical design (HLD/LLD) → Security review → Task-by-task implementation → Tests (unit, integration, E2E, a11y, perf) → PM sign-off → Docs.
-- **48 agent roles** including CTO, Product Manager, UI/UX Designer, Content Writer, Senior/Junior Engineer, Security Analyst, Code Reviewer, QA Lead, DevOps, AWS Architect, Terraform Engineer, DDD Architect, Microservice Architect, Observability Engineer, Incident Commander, AI/ML Engineers, MCP Engineer, and more.
-- **77+ skills** covering API design, auth, caching, resilience, event storming, monolith decomposition, contract testing, distributed tracing, and domain-driven design.
-- **Brownfield-first:** Codebase Intelligence and Pattern Compliance agents explore existing repos, extract patterns, and keep new code in sync before any implementation.
-- **Quality gates:** Security (OWASP), accessibility (WCAG 2.1 AA), performance (e.g. p95 &lt; 500ms), test coverage (e.g. ≥80%), and commit-per-atomic-unit so every commit is a safe revert point.
+- **Structured workflow:** Requirements → UX design → technical design (HLD/LLD) → Security review → implementation → tests → docs. Use the triggers and agent definitions so Cursor follows this flow.
+- **48 agent roles** (Product Manager, UI/UX Designer, Content Writer, Senior/Junior Engineer, Security Analyst, Code Reviewer, QA Lead, DevOps, AWS Architect, DDD Architect, and more) so the right “role” is applied for each step.
+- **77+ skills** (API design, auth, caching, resilience, event storming, contract testing, distributed tracing, etc.) so outputs match real-world patterns and best practices.
+- **Brownfield support:** Codebase exploration and pattern-compliance skills so Cursor respects existing code style and conventions.
+- **Quality gates:** Security (OWASP), accessibility (WCAG 2.1 AA), performance, test coverage, and commit-per-atomic-unit guidance so results are production-ready.
 
 ---
 
@@ -18,57 +20,40 @@
 
 | Path | Purpose |
 |------|--------|
-| `agent-system/` | Core orchestration, agents, and workflow definitions |
-| `agent-system/AGENTS.md` | All 48 agent definitions, capabilities, and escalation paths |
+| `agent-system/` | Workflow, agent definitions, and orchestration rules |
+| `agent-system/AGENTS.md` | All 48 agent definitions, capabilities, escalation paths |
 | `agent-system/ORCHESTRATOR.md` | Trigger→agent map, phases, commit rules |
-| `agent-system/QUICK_REFERENCE.md` | Triggers, skills, and agents at a glance |
+| `agent-system/QUICK_REFERENCE.md` | Triggers, skills, agents at a glance |
 | `agent-system/WORK_MANAGER.md` | Full feature lifecycle and task loop |
-| `agent-system/skills/` | Skill definitions (e.g. `cto-orchestrator`, `microservice-architect`, `aws-architect`) |
+| `agent-system/skills/` | Skill definitions (e.g. `microservice-architect`, `aws-architect`, `security-analyst`) |
 
 ---
 
-## Triggers (how you run it)
+## How to use it in Cursor
 
-Trigger phrases drive which agents run. Examples:
+Use **triggers** (and, where relevant, Cursor rules) so the right agent and workflow apply. Examples:
 
-| Trigger | Agents / Use |
+| Trigger | Use in Cursor |
 |--------|----------------|
 | `Workflow: [feature]` | Full lifecycle (PRD → design → build → test → docs) |
-| `Planner: [task]` | Product Manager + task breakdown |
+| `Planner: [task]` | Task breakdown and planning |
 | `HLD:` / `LLD:` | High-level / low-level design |
 | `Micro:` / `Decompose:` | Microservice architecture / monolith decomposition |
 | `DDD:` / `EventStorm:` | Domain-driven design / event storming |
-| `Infra: aws` / `Infra: terraform` | AWS Architect / Terraform Engineer |
-| `Test:` / `Review:` | QA Lead / Code Reviewer + Security |
-| `Bug: [desc]` | Debugger → Engineer |
-| `Doc: tech` / `Doc: functional` | Technical / functional documentation |
+| `Infra: aws` / `Infra: terraform` | AWS / Terraform guidance |
+| `Test:` / `Review:` | QA and code review focus |
+| `Bug: [desc]` | Debugging and fix flow |
+| `Doc: tech` / `Doc: functional` | Technical or functional docs |
 
 See `agent-system/QUICK_REFERENCE.md` for the full trigger list.
 
 ---
 
-## Tech stack (reference)
-
-The orchestration and skills are stack-agnostic; the reference stack in the docs includes:
-
-- **Backend:** Node.js, Express, PostgreSQL, Sequelize  
-- **Frontend:** React, Tailwind, React Router  
-- **Auth:** JWT, Bcrypt  
-- **Testing:** Jest, RTL, Playwright, k6, axe-core  
-- **Cloud:** AWS (ECS, RDS, S3, Lambda, CloudFront, Route53)  
-- **IaC:** Terraform, S3 remote state  
-- **DevOps:** Docker, GitHub Actions, Kubernetes  
-- **AI/ML:** Anthropic/OpenAI SDKs, LangChain, ChromaDB  
-- **MCP:** Model Context Protocol  
-- **Monorepo:** Turborepo, pnpm workspaces  
-
----
-
 ## Who this is for
 
-- **CTOs / Tech leads** who want a repeatable, quality-gated process for features.
-- **Teams** adopting AI-assisted development and wanting structure (PRDs, security, tests, docs).
-- **Engineers** working in existing codebases who want pattern compliance and brownfield support.
+- **Developers** using Cursor who want more consistent, high-quality outputs and fewer “messy” AI drafts.
+- **Teams** that want a shared workflow (requirements → design → implementation → tests → docs) without building custom tooling.
+- **Anyone** working in existing codebases who wants Cursor to follow patterns and stay in sync with the repo.
 
 ---
 
@@ -80,4 +65,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Contributing
 
-Contributions are welcome: new skills, agent refinements, or workflow improvements. Open an issue or PR with a clear scope and follow the commit conventions in `agent-system/ORCHESTRATOR.md` (conventional commits, one atomic unit per commit).
+Contributions are welcome: new skills, clearer agent definitions, or workflow tweaks. Open an issue or PR; follow the commit conventions in `agent-system/ORCHESTRATOR.md` where relevant.
