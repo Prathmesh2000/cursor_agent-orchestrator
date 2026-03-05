@@ -51,6 +51,10 @@ See `agent-system/QUICK_REFERENCE.md` for the full trigger list. **[Detailed usa
 
 **`agent-system-monitor-plugin.vsix`** — A Cursor/VSCode extension for an **interactive, visual view** of the agent system and workflows. Install the `.vsix` for a more fun, explorable way to see triggers, agents, and phases.
 
+The **Agent Office** view shows agents by department (Executive, Product, Design Studio, Frontend, Backend, QA, Infra, Docs), who’s working or idle, the workflow stages (Ready → Assign → Implement → Test → Security → Review → Done), and a live activity log—all alongside your editor.
+
+![Agent Office — visual workflow monitor](./agent-office-screenshot.png)
+
 ---
 
 ## Who this is for
