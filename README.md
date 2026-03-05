@@ -47,6 +47,10 @@ Use **triggers** (and, where relevant, Cursor rules) so the right agent and work
 
 See `agent-system/QUICK_REFERENCE.md` for the full trigger list. **[Detailed usage guide →](USAGE.md)**
 
+### Visual workflow view (plugin)
+
+**`agent-system-monitor-plugin.vsix`** — A Cursor/VSCode extension for an **interactive, visual view** of the agent system and workflows. Install the `.vsix` for a more fun, explorable way to see triggers, agents, and phases.
+
 ---
 
 ## Who this is for
