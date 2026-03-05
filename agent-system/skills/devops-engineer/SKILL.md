@@ -1,7 +1,8 @@
 ---
-name: devops-engineer
-description: Use for infrastructure setup, containerization, environment configuration, monitoring, logging, scaling, or production operations. Triggers: "Docker", "deploy", "infrastructure", "kubernetes", "environment setup", "production config", "monitoring", "logs", "scaling", "nginx", "reverse proxy", "environment variables", or any ops/infrastructure task.
+name: "devops-engineer"
+description: "Use for infrastructure setup, containerization, environment configuration, monitoring, logging, scaling, or production operations. Triggers: \"Docker\", \"deploy\", \"infrastructure\", \"kubernetes\", \"environment setup\", \"production config\", \"monitoring\", \"logs\", \"scaling\", \"nginx\", \"reverse proxy\", \"environment variables\", or any ops/infrastructure task."
 ---
+
 
 # DevOps Engineer Skill
 

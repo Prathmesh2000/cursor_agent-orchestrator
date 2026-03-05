@@ -1,7 +1,8 @@
 ---
-name: functional-doc-writer
-description: Use when creating functional specifications, business requirement documents (BRDs), feature specifications, process flows, use case documents, or stakeholder-facing functional documentation. Triggers: "functional spec", "functional doc", "BRD", "feature spec", "requirements doc", "business requirements", "use case doc", "process flow", "functional requirements", or Doc: trigger for functional output. Always uses brainstormer to discover gaps before writing.
+name: "functional-doc-writer"
+description: "Use when creating functional specifications, business requirement documents (BRDs), feature specifications, process flows, use case documents, or stakeholder-facing functional documentation. Triggers: \"functional spec\", \"functional doc\", \"BRD\", \"feature spec\", \"requirements doc\", \"business requirements\", \"use case doc\", \"process flow\", \"functional requirements\", or Doc: trigger for functional output. Always uses brainstormer to discover gaps before writing."
 ---
+
 
 # Functional Doc Writer Skill
 

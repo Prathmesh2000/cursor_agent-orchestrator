@@ -1,7 +1,8 @@
 ---
-name: auth-patterns
-description: Use when implementing authentication or authorization. Triggers: "auth", "login", "JWT", "OAuth", "session", "RBAC", "permissions", "refresh token", "protected route", "access control", "role-based", "SSO", "Google login", "logout", or any security feature involving user identity. Covers full backend+frontend auth implementation.
+name: "auth-patterns"
+description: "Use when implementing authentication or authorization. Triggers: \"auth\", \"login\", \"JWT\", \"OAuth\", \"session\", \"RBAC\", \"permissions\", \"refresh token\", \"protected route\", \"access control\", \"role-based\", \"SSO\", \"Google login\", \"logout\", or any security feature involving user identity. Covers full backend+frontend auth implementation."
 ---
+
 
 # Auth Patterns Skill
 

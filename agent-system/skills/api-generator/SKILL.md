@@ -1,7 +1,8 @@
 ---
-name: api-generator
-description: Use when creating REST API endpoints, Swagger docs, route handlers, or API schemas. Triggers: "create endpoint", "REST API", "Swagger", "OpenAPI", "POST/GET/PUT/DELETE route", or any backend API work.
+name: "api-generator"
+description: "Use when creating REST API endpoints, Swagger docs, route handlers, or API schemas. Triggers: \"create endpoint\", \"REST API\", \"Swagger\", \"OpenAPI\", \"POST/GET/PUT/DELETE route\", or any backend API work."
 ---
+
 
 # API Generator Skill
 

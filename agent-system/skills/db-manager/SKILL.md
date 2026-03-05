@@ -1,7 +1,8 @@
 ---
-name: db-manager
-description: Use for PostgreSQL schema design, Sequelize models, migrations, queries, and database optimization. Triggers: "database", "schema", "migration", "Sequelize", "query", "SQL", "model", or any data persistence work.
+name: "db-manager"
+description: "Use for PostgreSQL schema design, Sequelize models, migrations, queries, and database optimization. Triggers: \"database\", \"schema\", \"migration\", \"Sequelize\", \"query\", \"SQL\", \"model\", or any data persistence work."
 ---
+
 
 # Database Manager Skill
 

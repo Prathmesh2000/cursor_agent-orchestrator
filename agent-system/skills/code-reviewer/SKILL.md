@@ -1,7 +1,8 @@
 ---
-name: code-reviewer
-description: Use when reviewing code for quality, correctness, security, performance, and maintainability. Triggers: "review this code", "code review", "PR review", "check my code", "review before merge", or automatically in Workflow: Phase 5 after every engineering task. Every piece of code gets reviewed before testing.
+name: "code-reviewer"
+description: "Use when reviewing code for quality, correctness, security, performance, and maintainability. Triggers: \"review this code\", \"code review\", \"PR review\", \"check my code\", \"review before merge\", or automatically in Workflow: Phase 5 after every engineering task. Every piece of code gets reviewed before testing."
 ---
+
 
 # Code Reviewer Skill
 

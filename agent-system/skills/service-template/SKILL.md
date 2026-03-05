@@ -1,7 +1,8 @@
 ---
-name: service-template
-description: Use when creating a new microservice from scratch that needs to match organizational standards and patterns. Triggers: "new service", "create service", "service scaffold", "service boilerplate", "service template", "new microservice", or when bootstrapping any standalone deployable service. Produces a complete, runnable service skeleton in sync with existing org patterns.
+name: "service-template"
+description: "Use when creating a new microservice from scratch that needs to match organizational standards and patterns. Triggers: \"new service\", \"create service\", \"service scaffold\", \"service boilerplate\", \"service template\", \"new microservice\", or when bootstrapping any standalone deployable service. Produces a complete, runnable service skeleton in sync with existing org patterns."
 ---
+
 
 # Service Template Skill
 

@@ -1,7 +1,8 @@
 ---
-name: brainstormer
-description: Use when exploring design decisions, implementation approaches, or architectural choices. Triggers: "brainstorm", "what's the best way to", "help me decide", "architecture discussion", or when approach is uncertain. Facilitates structured dialogue to explore options and arrive at a solid decision before coding.
+name: "brainstormer"
+description: "Use when exploring design decisions, implementation approaches, or architectural choices. Triggers: \"brainstorm\", \"what's the best way to\", \"help me decide\", \"architecture discussion\", or when approach is uncertain. Facilitates structured dialogue to explore options and arrive at a solid decision before coding."
 ---
+
 
 # Brainstormer Skill
 

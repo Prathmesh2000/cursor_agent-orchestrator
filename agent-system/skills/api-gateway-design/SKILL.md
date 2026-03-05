@@ -1,7 +1,8 @@
 ---
-name: api-gateway-design
-description: Use when designing or implementing an API gateway for a microservice system. Triggers: "API gateway", "gateway", "BFF", "backend for frontend", "request aggregation", "service routing", "gateway pattern", "API composition", "cross-cutting concerns", "edge layer", or when multiple microservices need to be exposed through a unified entry point.
+name: "api-gateway-design"
+description: "Use when designing or implementing an API gateway for a microservice system. Triggers: \"API gateway\", \"gateway\", \"BFF\", \"backend for frontend\", \"request aggregation\", \"service routing\", \"gateway pattern\", \"API composition\", \"cross-cutting concerns\", \"edge layer\", or when multiple microservices need to be exposed through a unified entry point."
 ---
+
 
 # API Gateway Design Skill
 

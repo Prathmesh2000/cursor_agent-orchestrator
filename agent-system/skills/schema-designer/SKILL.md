@@ -1,7 +1,8 @@
 ---
-name: schema-designer
-description: Use when designing database schemas, ERDs, data models, OpenAPI/Swagger specs, JSON schemas, GraphQL schemas, or API contracts. Triggers: "schema", "data model", "ERD", "entity relationship", "OpenAPI", "data contract", "design the database", "API spec", "JSON schema", "GraphQL schema", or any task requiring formal data structure definition before implementation.
+name: "schema-designer"
+description: "Use when designing database schemas, ERDs, data models, OpenAPI/Swagger specs, JSON schemas, GraphQL schemas, or API contracts. Triggers: \"schema\", \"data model\", \"ERD\", \"entity relationship\", \"OpenAPI\", \"data contract\", \"design the database\", \"API spec\", \"JSON schema\", \"GraphQL schema\", or any task requiring formal data structure definition before implementation."
 ---
+
 
 # Schema Designer Skill
 

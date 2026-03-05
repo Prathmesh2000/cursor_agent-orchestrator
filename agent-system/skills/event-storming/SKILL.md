@@ -1,7 +1,8 @@
 ---
-name: event-storming
-description: Use when discovering domain events, mapping business processes, identifying service boundaries, or before designing microservices. Triggers: "event storming", "domain events", "process mapping", "business process", "discover boundaries", "domain discovery", "business events", "what happens when", or at the start of any significant system design to understand the domain before writing code.
+name: "event-storming"
+description: "Use when discovering domain events, mapping business processes, identifying service boundaries, or before designing microservices. Triggers: \"event storming\", \"domain events\", \"process mapping\", \"business process\", \"discover boundaries\", \"domain discovery\", \"business events\", \"what happens when\", or at the start of any significant system design to understand the domain before writing code."
 ---
+
 
 # Event Storming Skill
 

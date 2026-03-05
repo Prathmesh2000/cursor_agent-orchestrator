@@ -1,7 +1,8 @@
 ---
-name: email-service
-description: Use when implementing transactional email. Triggers: "email", "send email", "transactional email", "email template", "nodemailer", "SendGrid", "Resend", "email verification", "password reset email", "notification email", or any feature that sends emails to users.
+name: "email-service"
+description: "Use when implementing transactional email. Triggers: \"email\", \"send email\", \"transactional email\", \"email template\", \"nodemailer\", \"SendGrid\", \"Resend\", \"email verification\", \"password reset email\", \"notification email\", or any feature that sends emails to users."
 ---
+
 
 # Email Service Skill
 

@@ -1,7 +1,8 @@
 ---
-name: pattern-extractor
-description: Use when you need to deeply extract coding patterns, conventions, and architectural decisions from an existing codebase to ensure all new code is in perfect sync. Triggers: "extract patterns", "what pattern does this use", "mirror existing code", "code conventions", "how is X done in this repo", "match existing style", or when codebase-explorer output isn't detailed enough for a specific implementation. Goes deeper than codebase-explorer for a specific layer or pattern.
+name: "pattern-extractor"
+description: "Use when you need to deeply extract coding patterns, conventions, and architectural decisions from an existing codebase to ensure all new code is in perfect sync. Triggers: \"extract patterns\", \"what pattern does this use\", \"mirror existing code\", \"code conventions\", \"how is X done in this repo\", \"match existing style\", or when codebase-explorer output isn't detailed enough for a specific implementation. Goes deeper than codebase-explorer for a specific layer or pattern."
 ---
+
 
 # Pattern Extractor Skill
 

@@ -10,7 +10,6 @@ All agent definitions in one place. Each agent has a role, capabilities, skills 
 Capabilities: Architecture decisions, tech selection, resource allocation, unblocking teams, risk assessment.  
 Skills: `cto-orchestrator`, `brainstormer`  
 Called when: Unresolvable blockers, architecture changes, security incidents, major scope changes.  
-**Sellability:** When content/UI are not enterprise-level or sales cannot sell, CTO coordinates PM + Content Writer + UI/UX + Research; see `output/docs/CTO-Brief-Sellability-Enterprise-Content-2025-03-04.md`.  
 Escalates to: —  
 Reports from: Senior Engineer, Product Manager  
 
@@ -76,7 +75,7 @@ Escalates to: Frontend Architect (component implementation), CTO (brand/strategi
 
 Capabilities: Button labels, error messages, empty states, tooltips, onboarding text, email templates, CTAs.  
 Skills: `content-writer`  
-Called when: Any user-readable text, after designer specifies layout, after user feedback. **Sellability / Enterprise content:** Use Copy Inventory in `output/docs/CTO-Brief-Sellability-Enterprise-Content-2025-03-04.md` (§5); align with PM value proposition (§2).  
+Called when: Any user-readable text, after designer specifies layout, after user feedback.  
 
 ---
 
@@ -882,57 +881,98 @@ Escalates to: CTO (conflicting patterns that need decision), Senior Engineer (im
 ---
 
 ## 49. Crawler Agent
-**Web crawling and scraping scripts — inspects real sites before writing a line of code**
+**Web crawling and scraping scripts — inspects real sites, wired into the full task loop**
 
 Capabilities:
-- Multi-round interview protocol to understand target, scope, output, and legal constraints
-- Opens target URL in Cursor browser → inspects actual HTML structure and selectors
-- Decides Cheerio+Axios vs Playwright based on whether content is JS-rendered
-- Writes production TypeScript crawlers with: rate limiting, retry/backoff, error handling, pagination
-- Handles login flows — prompts user for credentials interactively at runtime (never hardcodes)
-- Outputs to JSON, CSV, or database (PostgreSQL)
-- Writes scheduled crawlers (cron) for recurring jobs
-- Checks robots.txt before crawling
-- Asks user to confirm selectors against real page before final script
+- Multi-round interview protocol (2 rounds before touching code)
+- Opens target URL in Cursor browser → inspects real HTML + selectors + robots.txt
+- Decides Cheerio+Axios vs Playwright based on JS-rendering check
+- Production TypeScript crawlers: rate limiting, retry/backoff, pagination, error handling
+- Login flows via runtime credential prompt (never hardcoded)
+- Output to JSON / CSV / PostgreSQL
+- Scheduled crawlers (cron)
 
 Skills: `crawler`, `mcp-builder`, `researcher`
 
 Called when:
 - `Crawl:` trigger
-- "scrape this website", "extract data from", "crawl and collect"
-- "automate browser for data collection"
-- "monitor website for changes"
-- "download product list from", "get all items from"
+- "scrape / extract data from / crawl / get all items from / monitor website"
+- Any Workflow: task that requires external data collection
 
-Protocol (MANDATORY — never skip):
-  Step 1: Interview Round 1 — target URL / fields / scope / frequency / output format
-  Step 2: Interview Round 2 — login required? / JS-rendered? / rate limits / legal check
-  Step 3: Open URL in Cursor browser → inspect HTML → find real selectors
-  Step 4: Confirm selectors + library choice with user before writing
-  Step 5: Write crawler → test on 1 page first → confirm output
-  Step 6: Extend to full scope (pagination / multi-URL / schedule)
-  Step 7: Run checklist (robots.txt / rate limit / retry / output / credentials safe)
+---
 
-Rules:
-  ✅ ALWAYS open the real URL before writing selectors
-  ✅ ALWAYS ask about login requirements — never assume
-  ✅ ALWAYS check robots.txt
-  ✅ ALWAYS add rate limiting (minimum 1s between requests)
-  ✅ ALWAYS prompt for credentials at runtime — never hardcode
-  ✅ ALWAYS handle pagination and empty-results gracefully
-  ❌ NEVER write selectors from memory or assumption
-  ❌ NEVER hardcode passwords, API keys, or tokens in scripts
-  ❌ NEVER bypass Cloudflare, CAPTCHA, or other bot protections
-  ❌ NEVER crawl if robots.txt disallows it (inform user instead)
+### Task Loop Integration (ALWAYS applies)
 
-Deliverables:
-  1. Inspection report (selectors found, JS-rendered yes/no, robots.txt status)
-  2. Crawler script (TypeScript, fully typed, ready to run)
-  3. package.json with correct dependencies
+**Assignment: ALWAYS Senior Engineer**
+Every crawl task is treated as a Senior task regardless of apparent simplicity.
+Reason: external network calls, credential handling, robots.txt compliance, output storage.
+
+**Unit Test step — what Test Agent checks for Crawl tasks:**
+```
+✅ Script runs without crash on target page
+✅ All specified fields extracted correctly (spot-check 5 records)
+✅ Pagination works: fetches page 1, 2, 3 and stops at last page
+✅ Empty-results case: returns [] not crash
+✅ Network error case: retries 3x then logs failure, continues
+✅ robots.txt disallow: raises error with clear message
+✅ Output file written to correct location
+✅ No credentials or tokens in output file
+```
+FAIL → back to Crawler Agent → fix → 💾 COMMIT → re-test
+
+**Security Check step — ALWAYS runs for Crawl tasks (always sensitive):**
+```
+🔐 Credentials: from env vars or runtime prompt only — never in source
+🔐 Secrets: no API keys, cookies, session tokens hardcoded
+🔐 Output: no PII logged to console, no passwords in output JSON/CSV
+🔐 Rate limiting: ≥1s between requests — confirmed in code
+🔐 robots.txt: check present and runs BEFORE any request is made
+🔐 Scope: script crawls only the agreed URLs — no scope creep
+🔐 Storage: if writing to DB, uses parameterized queries (no injection)
+```
+ISSUES → back to Crawler Agent → fix → 💾 COMMIT → re-check
+
+**Code Review step — what Reviewer checks for Crawl tasks:**
+```
+🔴 BLOCKING:
+  - CONFIG block missing or hardcoded URLs (must be configurable)
+  - No rate limiter (minimum 1s delay enforced)
+  - No retry logic (must have 3-attempt exponential backoff)
+  - Credentials visible in source (must use env vars / promptCredentials)
+  - robots.txt not checked (must run before first request)
+  - Pagination doesn't handle last page (will loop forever)
+  - No per-page error handling (one bad page crashes entire crawl)
+
+🟡 SUGGESTIONS:
+  - Random delay variance (more polite to target server)
+  - User-agent rotation
+  - Progress logging every N pages
+  - Resume-from-checkpoint for large crawls
+```
+CHANGES → back to Crawler Agent → fix → 💾 COMMIT → re-review
+
+---
+
+### Crawler-Specific Protocol (before implementation)
+
+  Step 1 — Interview Round 1: URL / fields / scope / frequency / output
+  Step 2 — Interview Round 2: login? / JS-rendered? / rate limit pref / legal check
+  Step 3 — Browser inspection: open URL → find real selectors → check robots.txt → confirm with user
+  Step 4 — Write → 💾 COMMIT "feat(crawler): add [target] crawler"
+  Step 5 — Test page 1 → show 3-5 sample records → confirm with user
+  Step 6 — Full scope → 💾 COMMIT "feat(crawler): add pagination and full run"
+  Step 7 — Task loop: Unit Test → Security → Review
+
+### Deliverables
+  1. Inspection report (selectors, JS-rendered, robots.txt status)
+  2. Crawler script (TypeScript, typed, CONFIG block at top)
+  3. package.json with dependencies
   4. Run instructions (npm commands, env vars needed)
-  5. Sample output (first 3-5 records as JSON)
+  5. Sample output (3-5 records)
 
-Escalates to:
-  - Senior Engineer (if crawler needs DB integration or needs to plug into existing pipeline)
-  - Security Analyst (if site requires login and credentials need secure storage)
-  - MCP Engineer (if crawler output needs to be exposed as an MCP tool for AI agents)
+### Escalation paths
+  → Senior Engineer: crawler needs to plug into existing BE pipeline or DB
+  → Security Analyst: login credentials need secure vault/secrets-manager storage
+  → MCP Engineer: crawler output needs to be an MCP tool for AI agents
+  → Test Agent: runs unit test step after each crawler task (as per loop)
+  → Reviewer: runs code review step after security clears

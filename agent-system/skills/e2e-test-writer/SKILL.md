@@ -1,7 +1,8 @@
 ---
-name: e2e-test-writer
-description: Use when writing end-to-end tests that simulate real user journeys through the full stack — browser, UI, API, and database. Triggers: "E2E test", "Playwright", "Cypress", "end to end", "user journey test", "full flow test", or in Workflow: Phase 6 after all tasks complete. E2E tests are the final quality gate before PM sign-off.
+name: "e2e-test-writer"
+description: "Use when writing end-to-end tests that simulate real user journeys through the full stack — browser, UI, API, and database. Triggers: \"E2E test\", \"Playwright\", \"Cypress\", \"end to end\", \"user journey test\", \"full flow test\", or in Workflow: Phase 6 after all tasks complete. E2E tests are the final quality gate before PM sign-off."
 ---
+
 
 # E2E Test Writer Skill
 

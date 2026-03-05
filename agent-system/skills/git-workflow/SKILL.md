@@ -1,7 +1,8 @@
 ---
-name: git-workflow
-description: Use for git branching strategy, commit conventions, PR workflows, merge strategies, conflict resolution, git history cleanup, or tagging releases. Triggers: "git", "branch", "commit", "PR", "pull request", "merge", "rebase", "conflict", "tag release", "gitflow", "trunk based", or when establishing or following a team git workflow.
+name: "git-workflow"
+description: "Use for git branching strategy, commit conventions, PR workflows, merge strategies, conflict resolution, git history cleanup, or tagging releases. Triggers: \"git\", \"branch\", \"commit\", \"PR\", \"pull request\", \"merge\", \"rebase\", \"conflict\", \"tag release\", \"gitflow\", \"trunk based\", or when establishing or following a team git workflow."
 ---
+
 
 # Git Workflow Skill
 

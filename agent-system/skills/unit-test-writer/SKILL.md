@@ -1,7 +1,8 @@
 ---
-name: unit-test-writer
-description: Use when writing unit tests for functions, classes, services, controllers, hooks, or any isolated code unit. Triggers: "write unit tests", "test this function", "unit test for", "add tests", "test coverage", "jest test", "pytest", or when a task or feature is completed and needs test coverage. Always use after any engineering task produces code. Integrated into Workflow: Phase 5 automatically.
+name: "unit-test-writer"
+description: "Use when writing unit tests for functions, classes, services, controllers, hooks, or any isolated code unit. Triggers: \"write unit tests\", \"test this function\", \"unit test for\", \"add tests\", \"test coverage\", \"jest test\", \"pytest\", or when a task or feature is completed and needs test coverage. Always use after any engineering task produces code. Integrated into Workflow: Phase 5 automatically."
 ---
+
 
 # Unit Test Writer Skill
 

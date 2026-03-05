@@ -1,7 +1,8 @@
 ---
-name: api-contract-tester
-description: Use when implementing consumer-driven contract tests, validating API contracts between services, setting up Pact testing, or ensuring that API providers don't break their consumers. Triggers: "contract test", "Pact", "consumer-driven", "API contract", "provider test", "consumer test", "breaking change detection", or when microservices need to evolve independently without breaking each other.
+name: "api-contract-tester"
+description: "Use when implementing consumer-driven contract tests, validating API contracts between services, setting up Pact testing, or ensuring that API providers don't break their consumers. Triggers: \"contract test\", \"Pact\", \"consumer-driven\", \"API contract\", \"provider test\", \"consumer test\", \"breaking change detection\", or when microservices need to evolve independently without breaking each other."
 ---
+
 
 # API Contract Tester Skill
 

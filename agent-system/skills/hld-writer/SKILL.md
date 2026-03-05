@@ -1,7 +1,8 @@
 ---
-name: hld-writer
-description: Use when creating a High-Level Design document for a system, product, or major feature. Triggers: "HLD", "high level design", "system design", "architecture document", "system architecture", "design document", "capacity planning", "service architecture", "how should we architect", or before designing any system involving multiple services, significant scale, or major infrastructure decisions. HLD comes before LLD.
+name: "hld-writer"
+description: "Use when creating a High-Level Design document for a system, product, or major feature. Triggers: \"HLD\", \"high level design\", \"system design\", \"architecture document\", \"system architecture\", \"design document\", \"capacity planning\", \"service architecture\", \"how should we architect\", or before designing any system involving multiple services, significant scale, or major infrastructure decisions. HLD comes before LLD."
 ---
+
 
 # HLD Writer Skill
 

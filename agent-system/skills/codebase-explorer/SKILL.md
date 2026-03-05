@@ -1,7 +1,8 @@
 ---
-name: codebase-explorer
-description: Use FIRST whenever working in an existing repository. Triggers: "existing repo", "understand the codebase", "what patterns does this use", "how is this structured", "before I add X", "in sync with existing code", "Explore:", or ANY time a user asks to modify, extend, or add to code that already exists. Always run this before coding in an unfamiliar or existing codebase.
+name: "codebase-explorer"
+description: "Use FIRST whenever working in an existing repository. Triggers: \"existing repo\", \"understand the codebase\", \"what patterns does this use\", \"how is this structured\", \"before I add X\", \"in sync with existing code\", \"Explore:\", or ANY time a user asks to modify, extend, or add to code that already exists. Always run this before coding in an unfamiliar or existing codebase."
 ---
+
 
 # Codebase Explorer Skill
 

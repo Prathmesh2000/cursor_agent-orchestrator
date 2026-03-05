@@ -1,7 +1,8 @@
 ---
-name: incident-manager
-description: Use when responding to production incidents, writing postmortems, building incident response runbooks, or establishing an on-call process. Triggers: "incident", "outage", "production down", "P1", "postmortem", "on-call", "pagerduty", "service degraded", "data loss", or when production is behaving unexpectedly and users are affected.
+name: "incident-manager"
+description: "Use when responding to production incidents, writing postmortems, building incident response runbooks, or establishing an on-call process. Triggers: \"incident\", \"outage\", \"production down\", \"P1\", \"postmortem\", \"on-call\", \"pagerduty\", \"service degraded\", \"data loss\", or when production is behaving unexpectedly and users are affected."
 ---
+
 
 # Incident Manager Skill
 

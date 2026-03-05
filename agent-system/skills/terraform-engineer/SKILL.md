@@ -1,7 +1,8 @@
 ---
-name: terraform-engineer
-description: Use for writing Terraform infrastructure-as-code, managing state, creating modules, planning/applying changes, or migrating existing infrastructure to Terraform. Triggers: "Terraform", "IaC", "infrastructure as code", "tf file", "terraform plan", "terraform apply", "tfstate", "terraform module", or when infrastructure needs to be version-controlled and repeatable.
+name: "terraform-engineer"
+description: "Use for writing Terraform infrastructure-as-code, managing state, creating modules, planning/applying changes, or migrating existing infrastructure to Terraform. Triggers: \"Terraform\", \"IaC\", \"infrastructure as code\", \"tf file\", \"terraform plan\", \"terraform apply\", \"tfstate\", \"terraform module\", or when infrastructure needs to be version-controlled and repeatable."
 ---
+
 
 # Terraform Engineer Skill
 

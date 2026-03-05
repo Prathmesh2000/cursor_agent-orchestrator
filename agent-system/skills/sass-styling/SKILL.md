@@ -1,7 +1,8 @@
 ---
-name: sass-styling
-description: Use when writing Sass/SCSS stylesheets, establishing CSS architecture, implementing BEM methodology, creating mixins/functions, managing design tokens in Sass, or setting up a scalable styling system. Triggers: "Sass", "SCSS", "BEM", "CSS architecture", "mixins", "Sass variables", "CSS modules with Sass", "style system", "sass partials", or any project where Sass is the styling approach.
+name: "sass-styling"
+description: "Use when writing Sass/SCSS stylesheets, establishing CSS architecture, implementing BEM methodology, creating mixins/functions, managing design tokens in Sass, or setting up a scalable styling system. Triggers: \"Sass\", \"SCSS\", \"BEM\", \"CSS architecture\", \"mixins\", \"Sass variables\", \"CSS modules with Sass\", \"style system\", \"sass partials\", or any project where Sass is the styling approach."
 ---
+
 
 # Sass Styling Skill
 

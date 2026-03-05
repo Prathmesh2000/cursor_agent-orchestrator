@@ -1,7 +1,8 @@
 ---
-name: monorepo-manager
-description: Use when setting up or managing a monorepo with multiple packages/apps. Triggers: "monorepo", "turborepo", "nx", "pnpm workspaces", "shared packages", "multiple apps one repo", "workspace", or when a project needs shared libraries across multiple services/frontends.
+name: "monorepo-manager"
+description: "Use when setting up or managing a monorepo with multiple packages/apps. Triggers: \"monorepo\", \"turborepo\", \"nx\", \"pnpm workspaces\", \"shared packages\", \"multiple apps one repo\", \"workspace\", or when a project needs shared libraries across multiple services/frontends."
 ---
+
 
 # Monorepo Manager Skill
 

@@ -1,7 +1,8 @@
 ---
-name: adr-writer
-description: Use when capturing, writing, or reviewing architecture decisions. Triggers: "ADR", "architecture decision", "decision record", "why did we choose", "document this decision", "architecture choice", "record this decision", "technical decision", or whenever a significant technical choice is made that future developers need to understand. ADRs prevent re-litigating past decisions.
+name: "adr-writer"
+description: "Use when capturing, writing, or reviewing architecture decisions. Triggers: \"ADR\", \"architecture decision\", \"decision record\", \"why did we choose\", \"document this decision\", \"architecture choice\", \"record this decision\", \"technical decision\", or whenever a significant technical choice is made that future developers need to understand. ADRs prevent re-litigating past decisions."
 ---
+
 
 # ADR Writer Skill
 

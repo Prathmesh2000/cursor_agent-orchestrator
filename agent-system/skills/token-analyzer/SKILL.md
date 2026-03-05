@@ -1,7 +1,8 @@
 ---
-name: token-analyzer
-description: Use when analyzing, estimating, or optimizing token usage for LLM API calls. Triggers: "token count", "token usage", "cost estimate", "context window", "token limit", "prompt too long", "optimize tokens", "reduce API cost", "context management", or when a prompt/conversation exceeds model limits.
+name: "token-analyzer"
+description: "Use when analyzing, estimating, or optimizing token usage for LLM API calls. Triggers: \"token count\", \"token usage\", \"cost estimate\", \"context window\", \"token limit\", \"prompt too long\", \"optimize tokens\", \"reduce API cost\", \"context management\", or when a prompt/conversation exceeds model limits."
 ---
+
 
 # Token Analyzer Skill
 

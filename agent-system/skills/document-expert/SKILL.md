@@ -1,7 +1,8 @@
 ---
-name: document-expert
-description: Use for reviewing, auditing, or creating technical documentation. Triggers: "review docs", "check README", "API documentation", "create docs", "document this", or at the end of every Workflow: run.
+name: "document-expert"
+description: "Use for reviewing, auditing, or creating technical documentation. Triggers: \"review docs\", \"check README\", \"API documentation\", \"create docs\", \"document this\", or at the end of every Workflow: run."
 ---
+
 
 # Document Expert Skill
 

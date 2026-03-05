@@ -1,7 +1,8 @@
 ---
-name: observability-engineer
-description: Use when setting up logging, metrics, distributed tracing, alerting, dashboards, or SLOs. Triggers: "logging", "metrics", "monitoring", "alerting", "tracing", "dashboard", "observability", "SLO", "SLA", "CloudWatch", "Datadog", "Grafana", "Prometheus", "OpenTelemetry", "structured logs", or when you can't tell why production is behaving unexpectedly.
+name: "observability-engineer"
+description: "Use when setting up logging, metrics, distributed tracing, alerting, dashboards, or SLOs. Triggers: \"logging\", \"metrics\", \"monitoring\", \"alerting\", \"tracing\", \"dashboard\", \"observability\", \"SLO\", \"SLA\", \"CloudWatch\", \"Datadog\", \"Grafana\", \"Prometheus\", \"OpenTelemetry\", \"structured logs\", or when you can't tell why production is behaving unexpectedly."
 ---
+
 
 # Observability Engineer Skill
 

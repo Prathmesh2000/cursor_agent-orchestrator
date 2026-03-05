@@ -1,7 +1,8 @@
 ---
-name: state-management
-description: Use when implementing client-side state management. Triggers: "state management", "Zustand", "Redux", "Redux Toolkit", "global state", "store", "useContext", "state architecture", "client state", "server state vs client state", "state sharing between components", or when component prop-drilling becomes a problem.
+name: "state-management"
+description: "Use when implementing client-side state management. Triggers: \"state management\", \"Zustand\", \"Redux\", \"Redux Toolkit\", \"global state\", \"store\", \"useContext\", \"state architecture\", \"client state\", \"server state vs client state\", \"state sharing between components\", or when component prop-drilling becomes a problem."
 ---
+
 
 # State Management Skill
 

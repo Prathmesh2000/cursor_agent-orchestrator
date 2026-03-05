@@ -1,7 +1,8 @@
 ---
-name: search-implementer
-description: Use when implementing search functionality. Triggers: "search", "full-text search", "PostgreSQL search", "Elasticsearch", "Typesense", "Algolia", "search index", "fuzzy search", "autocomplete", "search relevance", or any feature where users need to find content.
+name: "search-implementer"
+description: "Use when implementing search functionality. Triggers: \"search\", \"full-text search\", \"PostgreSQL search\", \"Elasticsearch\", \"Typesense\", \"Algolia\", \"search index\", \"fuzzy search\", \"autocomplete\", \"search relevance\", or any feature where users need to find content."
 ---
+
 
 # Search Implementer Skill
 

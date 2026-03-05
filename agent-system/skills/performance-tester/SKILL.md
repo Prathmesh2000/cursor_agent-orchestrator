@@ -1,7 +1,8 @@
 ---
-name: performance-tester
-description: Use when load testing APIs or UIs, benchmarking performance, profiling bottlenecks, setting performance budgets, or validating SLAs. Triggers: "load test", "performance test", "benchmark", "stress test", "latency", "throughput", "p95", "performance budget", "slow API", "profiling", or when preparing for production launch or traffic spikes.
+name: "performance-tester"
+description: "Use when load testing APIs or UIs, benchmarking performance, profiling bottlenecks, setting performance budgets, or validating SLAs. Triggers: \"load test\", \"performance test\", \"benchmark\", \"stress test\", \"latency\", \"throughput\", \"p95\", \"performance budget\", \"slow API\", \"profiling\", or when preparing for production launch or traffic spikes."
 ---
+
 
 # Performance Tester Skill
 

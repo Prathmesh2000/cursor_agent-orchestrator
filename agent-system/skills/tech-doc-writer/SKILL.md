@@ -1,7 +1,8 @@
 ---
-name: tech-doc-writer
-description: Use when creating technical documentation: system design docs, architecture decision records (ADRs), API reference docs, developer guides, runbooks, onboarding guides, or any engineer-facing documentation. Triggers: "tech doc", "technical documentation", "system design doc", "architecture doc", "ADR", "runbook", "developer guide", "API reference", "engineering doc", or Doc: trigger for technical output. Always uses brainstormer to identify audience, scope, and depth before writing.
+name: "tech-doc-writer"
+description: "Use when creating technical documentation: system design docs, architecture decision records (ADRs), API reference docs, developer guides, runbooks, onboarding guides, or any engineer-facing documentation. Triggers: \"tech doc\", \"technical documentation\", \"system design doc\", \"architecture doc\", \"ADR\", \"runbook\", \"developer guide\", \"API reference\", \"engineering doc\", or Doc: trigger for technical output. Always uses brainstormer to identify audience, scope, and depth before writing."
 ---
+
 
 # Tech Doc Writer Skill
 

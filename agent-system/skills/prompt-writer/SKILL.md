@@ -1,7 +1,8 @@
 ---
-name: prompt-writer
-description: Use when writing, optimizing, or auditing prompts for LLMs. Triggers: "write a prompt", "prompt engineering", "system prompt", "improve this prompt", "prompt for Claude/GPT/Gemini", "few-shot examples", "chain of thought", "prompt template", or any task involving instructing an AI model. Also use when AI output quality is poor and the cause is likely prompt design.
+name: "prompt-writer"
+description: "Use when writing, optimizing, or auditing prompts for LLMs. Triggers: \"write a prompt\", \"prompt engineering\", \"system prompt\", \"improve this prompt\", \"prompt for Claude/GPT/Gemini\", \"few-shot examples\", \"chain of thought\", \"prompt template\", or any task involving instructing an AI model. Also use when AI output quality is poor and the cause is likely prompt design."
 ---
+
 
 # Prompt Writer Skill
 

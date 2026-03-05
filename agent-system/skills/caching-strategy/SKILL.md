@@ -1,7 +1,8 @@
 ---
-name: caching-strategy
-description: Use when implementing caching at any layer. Triggers: "cache", "Redis", "caching", "CDN cache", "HTTP cache", "stale-while-revalidate", "cache-control", "cache invalidation", "performance", or when API responses or pages are too slow.
+name: "caching-strategy"
+description: "Use when implementing caching at any layer. Triggers: \"cache\", \"Redis\", \"caching\", \"CDN cache\", \"HTTP cache\", \"stale-while-revalidate\", \"cache-control\", \"cache invalidation\", \"performance\", or when API responses or pages are too slow."
 ---
+
 
 # Caching Strategy Skill
 

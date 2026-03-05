@@ -1,7 +1,8 @@
 ---
-name: rate-limiting
-description: Use when implementing rate limiting, throttling, or abuse prevention. Triggers: "rate limit", "throttle", "abuse prevention", "too many requests", "429", "per-user limit", "API rate limit", "Redis rate limit", or protecting any endpoint from abuse.
+name: "rate-limiting"
+description: "Use when implementing rate limiting, throttling, or abuse prevention. Triggers: \"rate limit\", \"throttle\", \"abuse prevention\", \"too many requests\", \"429\", \"per-user limit\", \"API rate limit\", \"Redis rate limit\", or protecting any endpoint from abuse."
 ---
+
 
 # Rate Limiting Skill
 

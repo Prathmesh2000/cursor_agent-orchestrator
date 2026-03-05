@@ -1,7 +1,8 @@
 ---
-name: brownfield-workflow
-description: Use when adding a feature, fixing a bug, or making changes to an existing codebase. Triggers: "existing codebase", "add to existing", "existing project", "extend this", "modify this", "working in existing repo", "change this feature", "add this to my project", "how do I add X to this code", or any task involving code that already exists. This skill governs the complete protocol for incremental work in existing repos.
+name: "brownfield-workflow"
+description: "Use when adding a feature, fixing a bug, or making changes to an existing codebase. Triggers: \"existing codebase\", \"add to existing\", \"existing project\", \"extend this\", \"modify this\", \"working in existing repo\", \"change this feature\", \"add this to my project\", \"how do I add X to this code\", or any task involving code that already exists. This skill governs the complete protocol for incremental work in existing repos."
 ---
+
 
 # Brownfield Workflow Skill
 

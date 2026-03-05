@@ -1,7 +1,8 @@
 ---
-name: api-versioning
-description: Use when designing API versioning strategies, handling breaking changes, deprecating endpoints, managing multiple API versions, or communicating API changes to consumers. Triggers: "API versioning", "breaking change", "deprecate endpoint", "v2 API", "backwards compatible", "sunset API", "API migration", "version strategy", or when an API change would break existing consumers.
+name: "api-versioning"
+description: "Use when designing API versioning strategies, handling breaking changes, deprecating endpoints, managing multiple API versions, or communicating API changes to consumers. Triggers: \"API versioning\", \"breaking change\", \"deprecate endpoint\", \"v2 API\", \"backwards compatible\", \"sunset API\", \"API migration\", \"version strategy\", or when an API change would break existing consumers."
 ---
+
 
 # API Versioning Skill
 

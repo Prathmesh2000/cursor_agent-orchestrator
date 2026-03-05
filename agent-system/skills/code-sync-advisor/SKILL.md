@@ -1,7 +1,8 @@
 ---
-name: code-sync-advisor
-description: Use when checking if new or proposed code is in sync with an existing codebase's patterns, conventions, and architecture. Triggers: "is this in sync", "does this match our patterns", "code review for convention compliance", "pattern compliance", "will this fit the codebase", "before I submit this PR", "code drift", or after any implementation in an existing repo. This skill is the gatekeeper — run it before code review.
+name: "code-sync-advisor"
+description: "Use when checking if new or proposed code is in sync with an existing codebase's patterns, conventions, and architecture. Triggers: \"is this in sync\", \"does this match our patterns\", \"code review for convention compliance\", \"pattern compliance\", \"will this fit the codebase\", \"before I submit this PR\", \"code drift\", or after any implementation in an existing repo. This skill is the gatekeeper — run it before code review."
 ---
+
 
 # Code Sync Advisor Skill
 

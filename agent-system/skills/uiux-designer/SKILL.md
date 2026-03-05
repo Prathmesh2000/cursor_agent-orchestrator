@@ -1,7 +1,8 @@
 ---
-name: uiux-designer
-description: Use for any UI/UX design work — new screens, redesigns, user flows, component specs, design gaps. Triggers: "design", "mockup", "wireframe", "user flow", "UI spec", "screen", "page", "how should it look", "what does the UI look like", "design the", "UX for", or any feature that has a user-facing interface. ALWAYS runs the interview protocol first — never design without asking questions.
+name: "uiux-designer"
+description: "Use for any UI/UX design work — new screens, redesigns, user flows, component specs, design gaps. Triggers: \"design\", \"mockup\", \"wireframe\", \"user flow\", \"UI spec\", \"screen\", \"page\", \"how should it look\", \"what does the UI look like\", \"design the\", \"UX for\", or any feature that has a user-facing interface. ALWAYS runs the interview protocol first — never design without asking questions."
 ---
+
 
 # UI/UX Designer Skill
 

@@ -1,7 +1,8 @@
 ---
-name: resilience-patterns
-description: Use when designing fault-tolerant distributed systems or implementing resilience in inter-service communication. Triggers: "circuit breaker", "retry", "timeout", "bulkhead", "fallback", "resilience", "fault tolerance", "cascade failure", "service unavailable", "degraded mode", "rate limiting", "backpressure", "chaos engineering", or any pattern protecting services from failures of their dependencies.
+name: "resilience-patterns"
+description: "Use when designing fault-tolerant distributed systems or implementing resilience in inter-service communication. Triggers: \"circuit breaker\", \"retry\", \"timeout\", \"bulkhead\", \"fallback\", \"resilience\", \"fault tolerance\", \"cascade failure\", \"service unavailable\", \"degraded mode\", \"rate limiting\", \"backpressure\", \"chaos engineering\", or any pattern protecting services from failures of their dependencies."
 ---
+
 
 # Resilience Patterns Skill
 

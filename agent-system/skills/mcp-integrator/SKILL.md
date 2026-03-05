@@ -1,7 +1,8 @@
 ---
-name: mcp-integrator
-description: Use when integrating with existing MCP servers, configuring MCP clients, chaining multiple MCP tools in a workflow, or debugging MCP connections. Triggers: "integrate MCP", "connect to MCP server", "configure MCP", "use MCP tool", "MCP not working", "chain MCP tools", or when an AI agent needs to use tools from an MCP server that already exists.
+name: "mcp-integrator"
+description: "Use when integrating with existing MCP servers, configuring MCP clients, chaining multiple MCP tools in a workflow, or debugging MCP connections. Triggers: \"integrate MCP\", \"connect to MCP server\", \"configure MCP\", \"use MCP tool\", \"MCP not working\", \"chain MCP tools\", or when an AI agent needs to use tools from an MCP server that already exists."
 ---
+
 
 # MCP Integrator Skill
 

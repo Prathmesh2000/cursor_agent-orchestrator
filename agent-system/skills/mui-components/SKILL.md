@@ -1,7 +1,8 @@
 ---
-name: mui-components
-description: Use when building UI with Material UI (MUI) v6. Triggers: "MUI", "Material UI", "MUI component", "MUI theme", "sx prop", "custom MUI", "MUI form", "MUI table", "MUI dialog", "MUI styling", or any React UI work where MUI is the component library. Covers theming, custom variants, sx prop patterns, component composition, and production-ready MUI architecture.
+name: "mui-components"
+description: "Use when building UI with Material UI (MUI) v6. Triggers: \"MUI\", \"Material UI\", \"MUI component\", \"MUI theme\", \"sx prop\", \"custom MUI\", \"MUI form\", \"MUI table\", \"MUI dialog\", \"MUI styling\", or any React UI work where MUI is the component library. Covers theming, custom variants, sx prop patterns, component composition, and production-ready MUI architecture."
 ---
+
 
 # MUI Components Skill
 

@@ -1,7 +1,8 @@
 ---
-name: content-writer
-description: Use for all user-facing copy: button labels, error messages, empty states, tooltips, onboarding, emails, notifications, help text. Triggers: "write copy", "error message", "microcopy", "onboarding text", "email template", or after UI design is done.
+name: "content-writer"
+description: "Use for all user-facing copy: button labels, error messages, empty states, tooltips, onboarding, emails, notifications, help text. Triggers: \"write copy\", \"error message\", \"microcopy\", \"onboarding text\", \"email template\", or after UI design is done."
 ---
+
 
 # Content Writer Skill
 

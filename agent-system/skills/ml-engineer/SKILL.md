@@ -1,7 +1,8 @@
 ---
-name: ml-engineer
-description: Use for machine learning tasks: model selection, training pipelines, evaluation, fine-tuning, RAG systems, embedding strategies, inference optimization, or MLOps. Triggers: "ML", "model", "training", "fine-tune", "RAG", "embeddings", "inference", "LLM integration", "vector database", "classification", "prediction", or any task involving machine learning in production.
+name: "ml-engineer"
+description: "Use for machine learning tasks: model selection, training pipelines, evaluation, fine-tuning, RAG systems, embedding strategies, inference optimization, or MLOps. Triggers: \"ML\", \"model\", \"training\", \"fine-tune\", \"RAG\", \"embeddings\", \"inference\", \"LLM integration\", \"vector database\", \"classification\", \"prediction\", or any task involving machine learning in production."
 ---
+
 
 # ML Engineer Skill
 

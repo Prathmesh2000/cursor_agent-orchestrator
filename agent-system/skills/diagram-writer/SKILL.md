@@ -1,7 +1,8 @@
 ---
-name: diagram-writer
-description: Use when creating architecture diagrams, sequence diagrams, ERDs, flowcharts, system design visuals, C4 diagrams, or any technical visualization. Triggers: "diagram", "architecture diagram", "sequence diagram", "flowchart", "system design diagram", "draw", "visualize", "C4", "mermaid", or when a technical concept needs visual explanation. Produces Mermaid code (renders in GitHub, Notion, Confluence).
+name: "diagram-writer"
+description: "Use when creating architecture diagrams, sequence diagrams, ERDs, flowcharts, system design visuals, C4 diagrams, or any technical visualization. Triggers: \"diagram\", \"architecture diagram\", \"sequence diagram\", \"flowchart\", \"system design diagram\", \"draw\", \"visualize\", \"C4\", \"mermaid\", or when a technical concept needs visual explanation. Produces Mermaid code (renders in GitHub, Notion, Confluence)."
 ---
+
 
 # Diagram Writer Skill
 

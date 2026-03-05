@@ -1,7 +1,8 @@
 ---
-name: file-upload-handler
-description: Use when implementing file uploads. Triggers: "file upload", "S3 upload", "image upload", "multipart", "presigned URL", "multer", "file storage", "image processing", "resize image", or any feature where users upload files.
+name: "file-upload-handler"
+description: "Use when implementing file uploads. Triggers: \"file upload\", \"S3 upload\", \"image upload\", \"multipart\", \"presigned URL\", \"multer\", \"file storage\", \"image processing\", \"resize image\", or any feature where users upload files."
 ---
+
 
 # File Upload Handler Skill
 

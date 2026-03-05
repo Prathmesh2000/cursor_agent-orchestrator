@@ -1,7 +1,8 @@
 ---
-name: task-planner
-description: Use when breaking down a high-level task, JIRA ticket, feature request, or PRD into granular, actionable subtasks. Triggers: "break down", "plan this", "JIRA", "what are the steps", sprint planning, or before any complex implementation.
+name: "task-planner"
+description: "Use when breaking down a high-level task, JIRA ticket, feature request, or PRD into granular, actionable subtasks. Triggers: \"break down\", \"plan this\", \"JIRA\", \"what are the steps\", sprint planning, or before any complex implementation."
 ---
+
 
 # Task Planner Skill
 

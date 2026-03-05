@@ -1,7 +1,8 @@
 ---
-name: security-analyst
-description: Use for security review, vulnerability assessment, threat modeling, or security testing. Triggers: "security", "vulnerability", "pen test", "OWASP", "SQL injection", "XSS", "auth security", or any user-facing / data-sensitive feature.
+name: "security-analyst"
+description: "Use for security review, vulnerability assessment, threat modeling, or security testing. Triggers: \"security\", \"vulnerability\", \"pen test\", \"OWASP\", \"SQL injection\", \"XSS\", \"auth security\", or any user-facing / data-sensitive feature."
 ---
+
 
 # Security Analyst Skill
 

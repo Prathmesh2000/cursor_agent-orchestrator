@@ -1,7 +1,8 @@
 ---
-name: design-tokens
-description: Use when establishing a design system's token layer: color palettes, spacing scales, typography, component tokens, or multi-brand theming. Triggers: "design tokens", "design system", "token", "theme tokens", "color system", "spacing system", "typography scale", "brand theming", "CSS variables", or when building the foundation for a component library.
+name: "design-tokens"
+description: "Use when establishing a design system's token layer: color palettes, spacing scales, typography, component tokens, or multi-brand theming. Triggers: \"design tokens\", \"design system\", \"token\", \"theme tokens\", \"color system\", \"spacing system\", \"typography scale\", \"brand theming\", \"CSS variables\", or when building the foundation for a component library."
 ---
+
 
 # Design Tokens Skill
 

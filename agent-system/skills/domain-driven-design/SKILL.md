@@ -1,7 +1,8 @@
 ---
-name: domain-driven-design
-description: Use when decomposing a system into services, designing service boundaries, applying DDD tactical patterns, or aligning code structure with business domains. Triggers: "DDD", "domain-driven design", "bounded context", "aggregate", "domain model", "ubiquitous language", "value object", "domain event", "repository pattern", "service boundaries", "context map", or when services are tangled, share too much, or don't map to business concepts.
+name: "domain-driven-design"
+description: "Use when decomposing a system into services, designing service boundaries, applying DDD tactical patterns, or aligning code structure with business domains. Triggers: \"DDD\", \"domain-driven design\", \"bounded context\", \"aggregate\", \"domain model\", \"ubiquitous language\", \"value object\", \"domain event\", \"repository pattern\", \"service boundaries\", \"context map\", or when services are tangled, share too much, or don't map to business concepts."
 ---
+
 
 # Domain-Driven Design Skill
 

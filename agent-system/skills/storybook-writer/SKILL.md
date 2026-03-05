@@ -1,7 +1,8 @@
 ---
-name: storybook-writer
-description: Use when writing Storybook stories, component documentation, visual testing, or setting up a component library documentation site. Triggers: "Storybook", "stories", "component docs", "visual testing", "CSF", "component library docs", "interaction tests", "chromatic", or when components need isolated documentation and visual regression testing.
+name: "storybook-writer"
+description: "Use when writing Storybook stories, component documentation, visual testing, or setting up a component library documentation site. Triggers: \"Storybook\", \"stories\", \"component docs\", \"visual testing\", \"CSF\", \"component library docs\", \"interaction tests\", \"chromatic\", or when components need isolated documentation and visual regression testing."
 ---
+
 
 # Storybook Writer Skill
 

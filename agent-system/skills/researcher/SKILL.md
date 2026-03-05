@@ -1,7 +1,8 @@
 ---
-name: researcher
-description: Use when doing technical research, technology evaluation, literature review, competitive analysis, feasibility studies, or RnD exploration. Triggers: "research", "compare options", "which technology should I use", "is this feasible", "what does the industry do", "state of the art", "RnD", "investigate", "evaluate", "benchmark", or before any major technical decision.
+name: "researcher"
+description: "Use when doing technical research, technology evaluation, literature review, competitive analysis, feasibility studies, or RnD exploration. Triggers: \"research\", \"compare options\", \"which technology should I use\", \"is this feasible\", \"what does the industry do\", \"state of the art\", \"RnD\", \"investigate\", \"evaluate\", \"benchmark\", or before any major technical decision."
 ---
+
 
 # Researcher Skill
 

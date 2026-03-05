@@ -1,7 +1,8 @@
 ---
-name: i18n-l10n
-description: Use when implementing internationalization, localization, multi-language support, or locale-specific formatting. Triggers: "i18n", "internationalization", "localization", "l10n", "multi-language", "react-i18next", "translations", "RTL", "date formatting", "currency", "plural", or when an app needs to support multiple languages or regions.
+name: "i18n-l10n"
+description: "Use when implementing internationalization, localization, multi-language support, or locale-specific formatting. Triggers: \"i18n\", \"internationalization\", \"localization\", \"l10n\", \"multi-language\", \"react-i18next\", \"translations\", \"RTL\", \"date formatting\", \"currency\", \"plural\", or when an app needs to support multiple languages or regions."
 ---
+
 
 # i18n / l10n Skill
 

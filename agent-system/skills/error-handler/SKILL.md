@@ -1,7 +1,8 @@
 ---
-name: error-handler
-description: Use when designing error handling strategy, error codes, retry logic, circuit breakers, fallback patterns, or auditing existing error handling for gaps. Triggers: "error handling", "error codes", "retry logic", "circuit breaker", "fallback", "graceful degradation", "exception handling", "error taxonomy", or when errors are swallowed, inconsistent, or provide no actionable feedback.
+name: "error-handler"
+description: "Use when designing error handling strategy, error codes, retry logic, circuit breakers, fallback patterns, or auditing existing error handling for gaps. Triggers: \"error handling\", \"error codes\", \"retry logic\", \"circuit breaker\", \"fallback\", \"graceful degradation\", \"exception handling\", \"error taxonomy\", or when errors are swallowed, inconsistent, or provide no actionable feedback."
 ---
+
 
 # Error Handler Skill
 

@@ -1,7 +1,8 @@
 ---
-name: feature-flags
-description: Use when implementing feature flags, gradual rollouts, A/B testing, kill switches, canary releases, or dark launches. Triggers: "feature flag", "feature toggle", "gradual rollout", "canary", "A/B test", "kill switch", "dark launch", "LaunchDarkly", "percentage rollout", or when deploying risky features that need controlled exposure.
+name: "feature-flags"
+description: "Use when implementing feature flags, gradual rollouts, A/B testing, kill switches, canary releases, or dark launches. Triggers: \"feature flag\", \"feature toggle\", \"gradual rollout\", \"canary\", \"A/B test\", \"kill switch\", \"dark launch\", \"LaunchDarkly\", \"percentage rollout\", or when deploying risky features that need controlled exposure."
 ---
+
 
 # Feature Flags Skill
 

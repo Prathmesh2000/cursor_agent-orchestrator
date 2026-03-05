@@ -1,7 +1,8 @@
 ---
-name: microservice-architect
-description: Use when designing, building, or migrating to microservices. Triggers: "microservice", "service decomposition", "break up monolith", "service mesh", "API gateway", "inter-service communication", "event-driven", "CQRS", "distributed system", "service boundaries", "domain-driven design", "bounded context", or any architecture involving multiple independently deployable services.
+name: "microservice-architect"
+description: "Use when designing, building, or migrating to microservices. Triggers: \"microservice\", \"service decomposition\", \"break up monolith\", \"service mesh\", \"API gateway\", \"inter-service communication\", \"event-driven\", \"CQRS\", \"distributed system\", \"service boundaries\", \"domain-driven design\", \"bounded context\", or any architecture involving multiple independently deployable services."
 ---
+
 
 # Microservice Architect Skill
 

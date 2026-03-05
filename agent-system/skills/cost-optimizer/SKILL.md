@@ -1,7 +1,8 @@
 ---
-name: cost-optimizer
-description: Use when analyzing cloud costs, rightsizing infrastructure, identifying waste, setting budgets, or building cost attribution. Triggers: "cloud cost", "AWS bill", "cost optimization", "rightsizing", "reserved instances", "savings plan", "budget alert", "cost reduction", "expensive", "overspend", or when the infrastructure bill is higher than expected.
+name: "cost-optimizer"
+description: "Use when analyzing cloud costs, rightsizing infrastructure, identifying waste, setting budgets, or building cost attribution. Triggers: \"cloud cost\", \"AWS bill\", \"cost optimization\", \"rightsizing\", \"reserved instances\", \"savings plan\", \"budget alert\", \"cost reduction\", \"expensive\", \"overspend\", or when the infrastructure bill is higher than expected."
 ---
+
 
 # Cost Optimizer Skill
 

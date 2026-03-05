@@ -1,7 +1,8 @@
 ---
-name: integration-test-writer
-description: Use when writing integration tests that test multiple units working together — API endpoints with real DB, service chains, third-party integrations, or module boundaries. Triggers: "integration test", "API test", "test the endpoint", "supertest", "test with database", or when unit tests exist but the wiring between layers needs verification. Runs after unit tests pass in Workflow: Phase 5.
+name: "integration-test-writer"
+description: "Use when writing integration tests that test multiple units working together — API endpoints with real DB, service chains, third-party integrations, or module boundaries. Triggers: \"integration test\", \"API test\", \"test the endpoint\", \"supertest\", \"test with database\", or when unit tests exist but the wiring between layers needs verification. Runs after unit tests pass in Workflow: Phase 5."
 ---
+
 
 # Integration Test Writer Skill
 

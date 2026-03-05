@@ -1,7 +1,8 @@
 ---
-name: code-migrator
-description: Use when refactoring codebases, migrating between frameworks/libraries, paying off tech debt, upgrading major versions, or moving from one architecture pattern to another. Triggers: "refactor", "migrate from", "upgrade", "tech debt", "modernize", "replace [library]", "move from X to Y", "rewrite", or when codebase patterns are inconsistent and need standardization.
+name: "code-migrator"
+description: "Use when refactoring codebases, migrating between frameworks/libraries, paying off tech debt, upgrading major versions, or moving from one architecture pattern to another. Triggers: \"refactor\", \"migrate from\", \"upgrade\", \"tech debt\", \"modernize\", \"replace [library]\", \"move from X to Y\", \"rewrite\", or when codebase patterns are inconsistent and need standardization."
 ---
+
 
 # Code Migrator Skill
 

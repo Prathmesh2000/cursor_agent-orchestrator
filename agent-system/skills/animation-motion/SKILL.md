@@ -1,7 +1,8 @@
 ---
-name: animation-motion
-description: Use when adding animations, transitions, or motion to UI components. Triggers: "animation", "Framer Motion", "transition", "micro-interaction", "page transition", "hover animation", "loading animation", "motion", "animate", "spring", or when UI needs to feel more polished and alive.
+name: "animation-motion"
+description: "Use when adding animations, transitions, or motion to UI components. Triggers: \"animation\", \"Framer Motion\", \"transition\", \"micro-interaction\", \"page transition\", \"hover animation\", \"loading animation\", \"motion\", \"animate\", \"spring\", or when UI needs to feel more polished and alive."
 ---
+
 
 # Animation & Motion Skill
 

@@ -1,7 +1,8 @@
 ---
-name: changelog-writer
-description: Use when writing, updating, or auto-generating CHANGELOGs, release notes, or version histories. Triggers: "changelog", "release notes", "what changed", "CHANGELOG.md", "version history", or as part of every Release: workflow. Follows Keep a Changelog format and semantic versioning.
+name: "changelog-writer"
+description: "Use when writing, updating, or auto-generating CHANGELOGs, release notes, or version histories. Triggers: \"changelog\", \"release notes\", \"what changed\", \"CHANGELOG.md\", \"version history\", or as part of every Release: workflow. Follows Keep a Changelog format and semantic versioning."
 ---
+
 
 # Changelog Writer Skill
 

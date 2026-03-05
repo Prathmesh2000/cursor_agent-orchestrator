@@ -1,7 +1,8 @@
 ---
-name: data-pipeline
-description: Use when designing or implementing data pipelines, ETL processes, data transformations, event streaming, analytics ingestion, data warehouse loading, or batch processing. Triggers: "data pipeline", "ETL", "ELT", "data transformation", "data ingestion", "Kafka", "streaming", "batch processing", "data warehouse", "analytics pipeline", "SQS pipeline", or when data needs to move and transform between systems.
+name: "data-pipeline"
+description: "Use when designing or implementing data pipelines, ETL processes, data transformations, event streaming, analytics ingestion, data warehouse loading, or batch processing. Triggers: \"data pipeline\", \"ETL\", \"ELT\", \"data transformation\", \"data ingestion\", \"Kafka\", \"streaming\", \"batch processing\", \"data warehouse\", \"analytics pipeline\", \"SQS pipeline\", or when data needs to move and transform between systems."
 ---
+
 
 # Data Pipeline Skill
 

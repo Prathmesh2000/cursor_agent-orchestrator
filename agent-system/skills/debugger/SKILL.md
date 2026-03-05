@@ -1,7 +1,8 @@
 ---
-name: debugger
-description: Use when debugging bugs, errors, unexpected behavior, or stack traces. Triggers: "bug", "error", "not working", "broken", stack trace pasted, or unexpected output. Performs systematic RCA and presents solution options.
+name: "debugger"
+description: "Use when debugging bugs, errors, unexpected behavior, or stack traces. Triggers: \"bug\", \"error\", \"not working\", \"broken\", stack trace pasted, or unexpected output. Performs systematic RCA and presents solution options."
 ---
+
 
 # Debugger Skill
 

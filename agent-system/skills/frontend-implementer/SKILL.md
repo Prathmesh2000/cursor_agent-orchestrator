@@ -1,7 +1,8 @@
 ---
-name: frontend-implementer
-description: Use when building React components, pages, hooks, or frontend features. Triggers: "React", "component", "frontend", "create a page", "form", hooks, state management, or after UI design is approved.
+name: "frontend-implementer"
+description: "Use when building React components, pages, hooks, or frontend features. Triggers: \"React\", \"component\", \"frontend\", \"create a page\", \"form\", hooks, state management, or after UI design is approved."
 ---
+
 
 # Frontend Implementer Skill
 

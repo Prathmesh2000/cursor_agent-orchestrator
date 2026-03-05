@@ -1,7 +1,8 @@
 ---
-name: react-query-patterns
-description: Use when implementing data fetching, caching, server state synchronization, optimistic updates, infinite scroll, or background refetching in React. Triggers: "React Query", "TanStack Query", "useQuery", "useMutation", "data fetching", "caching", "optimistic update", "infinite scroll", "stale-while-revalidate", "server state", or when managing async data in React components.
+name: "react-query-patterns"
+description: "Use when implementing data fetching, caching, server state synchronization, optimistic updates, infinite scroll, or background refetching in React. Triggers: \"React Query\", \"TanStack Query\", \"useQuery\", \"useMutation\", \"data fetching\", \"caching\", \"optimistic update\", \"infinite scroll\", \"stale-while-revalidate\", \"server state\", or when managing async data in React components."
 ---
+
 
 # React Query Patterns Skill
 

@@ -1,7 +1,8 @@
 ---
-name: ci-cd-pipeline
-description: Use when setting up or maintaining CI/CD pipelines, GitHub Actions, GitLab CI, automated testing in CI, deployment pipelines, environment promotion, pipeline debugging, or release automation. Triggers: "CI/CD", "GitHub Actions", "pipeline", "automated deploy", "build pipeline", "test in CI", "deploy on merge", "release pipeline", "workflow file", or any continuous integration/delivery work.
+name: "ci-cd-pipeline"
+description: "Use when setting up or maintaining CI/CD pipelines, GitHub Actions, GitLab CI, automated testing in CI, deployment pipelines, environment promotion, pipeline debugging, or release automation. Triggers: \"CI/CD\", \"GitHub Actions\", \"pipeline\", \"automated deploy\", \"build pipeline\", \"test in CI\", \"deploy on merge\", \"release pipeline\", \"workflow file\", or any continuous integration/delivery work."
 ---
+
 
 # CI/CD Pipeline Skill
 

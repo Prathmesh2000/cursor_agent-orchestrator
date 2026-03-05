@@ -1,7 +1,8 @@
 ---
-name: lld-writer
-description: Use when creating a Low-Level Design document for a component, service, module, or feature. Triggers: "LLD", "low level design", "class diagram", "component design", "detailed design", "module design", "interface design", "sequence diagram for implementation", "design before coding", or before implementing any non-trivial feature. LLD bridges HLD and code — it is the blueprint developers implement from.
+name: "lld-writer"
+description: "Use when creating a Low-Level Design document for a component, service, module, or feature. Triggers: \"LLD\", \"low level design\", \"class diagram\", \"component design\", \"detailed design\", \"module design\", \"interface design\", \"sequence diagram for implementation\", \"design before coding\", or before implementing any non-trivial feature. LLD bridges HLD and code — it is the blueprint developers implement from."
 ---
+
 
 # LLD Writer Skill
 

@@ -1,7 +1,8 @@
 ---
-name: crawler
-description: Use for writing web crawling and scraping scripts. Triggers: "crawl", "scrape", "extract data from website", "web scraper", "automate browser", "collect data from", "monitor website", "download data from URL", "parse site", "crawl and extract". Opens the target URL in Cursor browser to inspect structure before writing code. Asks clarifying questions before writing a single line.
+name: "crawler"
+description: "Use for writing web crawling and scraping scripts. Triggers: \"crawl\", \"scrape\", \"extract data from website\", \"web scraper\", \"automate browser\", \"collect data from\", \"monitor website\", \"download data from URL\", \"parse site\", \"crawl and extract\". Opens the target URL in Cursor browser to inspect structure before writing code. Asks clarifying questions before writing a single line."
 ---
+
 
 # Crawler Skill
 

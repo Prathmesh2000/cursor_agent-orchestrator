@@ -1,7 +1,8 @@
 ---
-name: websocket-realtime
-description: Use when implementing real-time features. Triggers: "WebSocket", "real-time", "Socket.io", "live updates", "SSE", "Server-Sent Events", "push notifications", "live chat", "presence", "collaborative", "pub/sub", or any feature requiring server-to-client push.
+name: "websocket-realtime"
+description: "Use when implementing real-time features. Triggers: \"WebSocket\", \"real-time\", \"Socket.io\", \"live updates\", \"SSE\", \"Server-Sent Events\", \"push notifications\", \"live chat\", \"presence\", \"collaborative\", \"pub/sub\", or any feature requiring server-to-client push."
 ---
+
 
 # WebSocket & Real-Time Skill
 

@@ -1,7 +1,8 @@
 ---
-name: distributed-tracing-design
-description: Use when designing or implementing observability for distributed systems. Triggers: "distributed tracing", "OpenTelemetry", "Jaeger", "Zipkin", "trace", "span", "correlation ID", "request tracing", "cross-service tracing", "service mesh observability", "why is this slow in production", or when debugging issues that span multiple services. Essential for any microservice system.
+name: "distributed-tracing-design"
+description: "Use when designing or implementing observability for distributed systems. Triggers: \"distributed tracing\", \"OpenTelemetry\", \"Jaeger\", \"Zipkin\", \"trace\", \"span\", \"correlation ID\", \"request tracing\", \"cross-service tracing\", \"service mesh observability\", \"why is this slow in production\", or when debugging issues that span multiple services. Essential for any microservice system."
 ---
+
 
 # Distributed Tracing Design Skill
 

@@ -1,7 +1,8 @@
 ---
-name: dependency-mapper
-description: Use when mapping dependencies between modules/services, finding circular dependencies, performing impact analysis before a change, or understanding what breaks if X changes. Triggers: "dependency map", "what depends on", "circular dependency", "impact analysis", "what will break if", "dependency graph", "module coupling", "service dependencies", "dependency audit", or before any refactor touching shared code.
+name: "dependency-mapper"
+description: "Use when mapping dependencies between modules/services, finding circular dependencies, performing impact analysis before a change, or understanding what breaks if X changes. Triggers: \"dependency map\", \"what depends on\", \"circular dependency\", \"impact analysis\", \"what will break if\", \"dependency graph\", \"module coupling\", \"service dependencies\", \"dependency audit\", or before any refactor touching shared code."
 ---
+
 
 # Dependency Mapper Skill
 

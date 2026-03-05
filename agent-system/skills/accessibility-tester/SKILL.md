@@ -1,7 +1,8 @@
 ---
-name: accessibility-tester
-description: Use when auditing or testing UI for accessibility, WCAG compliance, screen reader support, keyboard navigation, or color contrast. Triggers: "accessibility", "a11y", "WCAG", "screen reader", "keyboard nav", "color contrast", "aria", "accessible", or as part of QA on any user-facing UI. Integrated in Workflow: Phase 6 for all frontend features.
+name: "accessibility-tester"
+description: "Use when auditing or testing UI for accessibility, WCAG compliance, screen reader support, keyboard navigation, or color contrast. Triggers: \"accessibility\", \"a11y\", \"WCAG\", \"screen reader\", \"keyboard nav\", \"color contrast\", \"aria\", \"accessible\", or as part of QA on any user-facing UI. Integrated in Workflow: Phase 6 for all frontend features."
 ---
+
 
 # Accessibility Tester Skill
 

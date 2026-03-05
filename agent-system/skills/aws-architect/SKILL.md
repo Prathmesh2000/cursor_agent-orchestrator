@@ -1,7 +1,8 @@
 ---
-name: aws-architect
-description: Use for designing, implementing, or reviewing AWS infrastructure. Triggers: "AWS", "S3", "EC2", "Lambda", "RDS", "ECS", "EKS", "VPC", "IAM", "CloudWatch", "CloudFront", "Route53", "SQS", "SNS", "API Gateway", "cloud architecture", or any Amazon Web Services task. Always consider cost, security, and high availability.
+name: "aws-architect"
+description: "Use for designing, implementing, or reviewing AWS infrastructure. Triggers: \"AWS\", \"S3\", \"EC2\", \"Lambda\", \"RDS\", \"ECS\", \"EKS\", \"VPC\", \"IAM\", \"CloudWatch\", \"CloudFront\", \"Route53\", \"SQS\", \"SNS\", \"API Gateway\", \"cloud architecture\", or any Amazon Web Services task. Always consider cost, security, and high availability."
 ---
+
 
 # AWS Architect Skill
 

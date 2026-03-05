@@ -1,7 +1,8 @@
 ---
-name: mcp-builder
-description: Use when creating a new MCP (Model Context Protocol) server from scratch. Triggers: "create MCP server", "build MCP", "new MCP tool", "MCP server for", "expose [tool/API/DB] via MCP", or when a service needs to be accessible by an AI agent through the MCP protocol. MCP servers give AI agents structured access to tools, resources, and prompts.
+name: "mcp-builder"
+description: "Use when creating a new MCP (Model Context Protocol) server from scratch. Triggers: \"create MCP server\", \"build MCP\", \"new MCP tool\", \"MCP server for\", \"expose [tool/API/DB] via MCP\", or when a service needs to be accessible by an AI agent through the MCP protocol. MCP servers give AI agents structured access to tools, resources, and prompts."
 ---
+
 
 # MCP Builder Skill
 

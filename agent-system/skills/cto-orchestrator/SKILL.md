@@ -1,7 +1,8 @@
 ---
-name: cto-orchestrator
-description: Use for strategic technical leadership, architecture decisions, escalations, technical roadmap, or cross-team coordination. Triggers: "architecture decision", "technical strategy", "escalation", "unblock", "roadmap", or when Senior Engineer hits a wall.
+name: "cto-orchestrator"
+description: "Use for strategic technical leadership, architecture decisions, escalations, technical roadmap, or cross-team coordination. Triggers: \"architecture decision\", \"technical strategy\", \"escalation\", \"unblock\", \"roadmap\", or when Senior Engineer hits a wall."
 ---
+
 
 # CTO Orchestrator Skill
 

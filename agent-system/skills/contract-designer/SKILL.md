@@ -1,7 +1,8 @@
 ---
-name: contract-designer
-description: Use when designing the contract between services — the API, events, and data that cross service boundaries. Triggers: "service contract", "inter-service API", "event schema", "service interface", "API contract for microservice", "what does service X expose", "event-driven contract", "AsyncAPI", or before implementing any inter-service communication. Contracts must be agreed before implementation.
+name: "contract-designer"
+description: "Use when designing the contract between services — the API, events, and data that cross service boundaries. Triggers: \"service contract\", \"inter-service API\", \"event schema\", \"service interface\", \"API contract for microservice\", \"what does service X expose\", \"event-driven contract\", \"AsyncAPI\", or before implementing any inter-service communication. Contracts must be agreed before implementation."
 ---
+
 
 # Contract Designer Skill
 

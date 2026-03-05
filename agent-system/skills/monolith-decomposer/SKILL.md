@@ -1,7 +1,8 @@
 ---
-name: monolith-decomposer
-description: Use when migrating a monolith to microservices or when extracting a bounded context into a standalone service. Triggers: "break up monolith", "extract service", "strangler fig", "monolith to microservices", "service extraction", "bounded context", "decouple", "separate service", "split apart", or when a module has grown to need independent deployment or scaling.
+name: "monolith-decomposer"
+description: "Use when migrating a monolith to microservices or when extracting a bounded context into a standalone service. Triggers: \"break up monolith\", \"extract service\", \"strangler fig\", \"monolith to microservices\", \"service extraction\", \"bounded context\", \"decouple\", \"separate service\", \"split apart\", or when a module has grown to need independent deployment or scaling."
 ---
+
 
 # Monolith Decomposer Skill
 
